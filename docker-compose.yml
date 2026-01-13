@@ -23,7 +23,7 @@ services:
       start_period: 60s
 
   flask-app:
-    image: Harsh404/two-tier-flask-app:latest
+    image: harshdocker12/two-tier-flask-app:latest
     container_name: flask-app
     ports:
       - "5000:5000"
